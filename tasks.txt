@@ -1,0 +1,9 @@
+task number -> programs amount
+
+9 -> 3
+10 -> 4
+11 -> 1
+12 -> 2
+sorting -> 1
+15 -> 1
+16 -> 1
