@@ -83,7 +83,6 @@ int main(int argc, char **argv) {
   bool bs = false;
   for (int i = 0; i < argc; i++)
     if (!strncmp(argv[i], "bs", 2)) {
-      puts("SORTED;");
       bs = true;
     }
 
