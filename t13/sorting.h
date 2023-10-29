@@ -12,6 +12,8 @@
  * Kostya B. (Boiiterra). Under MIT License   *
  **********************************************/
 
+#ifndef SORT_H_
+#define SORT_H_
 void buble_sort(int *arr, int len);
 
 int partition(int *arr, int low, int high);
@@ -63,3 +65,4 @@ void quick_sort(int *arr, int low, int high) {
   }
 }
 #endif // SORTING_IMPLEMENTATION
+#endif // SORT_H_

@@ -60,8 +60,6 @@ typedef struct {
 bool read_file(const char *path, BString *where);
 bool write_ints_file(const char *path, BArr *from, size_t len);
 
-#define FILE_IMPLEMENTATION
-
 #ifdef FILE_IMPLEMENTATION
 
 bool read_file(const char *path, BString *where) {
