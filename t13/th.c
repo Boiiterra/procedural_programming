@@ -100,7 +100,7 @@ int main(int argc, char **argv) {
   }
 #endif
 
-  puts(info ": Writing to file.");
+  puts(info "Writing to file.");
   if (!write_ints_file("./sorted.txt", &arr, arr.len))
     freter(-2);
 

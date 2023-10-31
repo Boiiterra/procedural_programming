@@ -10,7 +10,7 @@ if [ -f "./sorted.txt" ]; then
 fi
 
 echo "$i Building C file."
-./build th
+../build.sh th
 echo "$i Build successful."
 
 if [ -z "$1" ]; then
