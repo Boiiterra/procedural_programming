@@ -1,5 +1,8 @@
 # Procedural programming
 
+> [!IMPORTANT]
+> All code was written on linux machine running Arch.
+
 ## Finished
 
 Here I store code that is needed for my course at MIREA univesity. \
