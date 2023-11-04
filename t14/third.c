@@ -18,6 +18,7 @@ void manipul(int *arr, int len, int param, int *even, int *odd) {
 
 int main(void) {
   srand(time(NULL));
+  void (*ykaz)(int *arr, int len, int param, int *even, int *odd);
   int odd, even, param;
   int arr[100] = {0};
   for (int i = 0; i < 100; i++)
@@ -32,10 +33,12 @@ int main(void) {
     puts("- [ERROR]: Division by zero.");
     return -2;
   }
-
+  ykaz = manipul;
+  ykaz = NULL;
+  ykaz = manipul;
   for (int i = 0; i < 100; i++)
     printf("[ %3d ]%c", arr[i], ((i + 1) % 10 == 0) ? '\n' : ' ');
-  manipul(arr, 100, param, &even, &odd);
+  ykaz(arr, 100, param, &even, &odd);
   printf("Nubers that are divisible by %d with no remainder.\n", param);
   printf("Even nums %d;\nOdd nums %d;\n", even, odd);
 
